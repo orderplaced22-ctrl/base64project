@@ -11,7 +11,7 @@ function App() {
     formData.append("emails", emailsFile);
 
     const response = await fetch(
-      "https://base64project.onrender.com/generate-links/",
+      "https://base64-q06v.onrender.com/generate-links/",
       {
         method: "POST",
         body: formData,
